@@ -5,3 +5,6 @@
 *.tfstate.*
 *.terraform.*
 *.tfvars
+main.*
+OUTPUT.*
+variables.*
