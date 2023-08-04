@@ -32,5 +32,7 @@ resource "aws_security_group" "linux_server_SG" {
     cidr_blocks      = ["0.0.0.0/0"]
   }
 
-  tags = "linux_server_SG"               # var.SG_tags
+  tags = {
+    Name = "linux_server_SG"
+  }              # var.SG_tags
 }
